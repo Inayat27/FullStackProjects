@@ -1,0 +1,8 @@
+main bg color -#be94ff
+menu bar color - #8c4af2
+selectionColor - #e3d8ff
+btnColor - #6543e2
+cardColor - #e4d8fe
+mainContanier -#f0f2ff
+foodCard - #fff
+menubg - #671fd7

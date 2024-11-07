@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poltawski+Nowy:wght@500&family=Roboto:wght@300&display=swap');
+
+:root{
+    --mainBgColor : #be94ff;
+    --menuBarColor :#8c4af2;
+    --selectionColor : #e3d8ff;
+    --btnColor: #6543e2;
+    --cardColor: #e4d8fe;
+    --mainContainer:#f0f2ff;
+    --foodCard :#fff;
+    --menuShadowBg:#671fd7;
+    --ffamily:'Plus Jakarta Sans','Poltawski Nowy', serif,'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: var(--mainBgColor);
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1.2fr 5fr;
+    height: 100vh;
+    grid-column-gap: 10px;
+    
+
+}
+.mainContent{
+   background-color: #857996;
+}
+
+/* Menu Bar css */
+
+.menuBar{
+    text-align: center;
+    background-color: var(--menuBarColor);
+    color: white;
+    border-radius: 20px;
+    margin:5px;
+    
+    
+}
+
+.menuBar >h1{
+    font-size: 40px;
+    position: relative;
+    top: -15px;
+}
+
+.navlist{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: -35px;
+    
+}
+
+
+.navlist>li>div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    
+}
+
+
+.navlist>li:hover{
+
+    background-color: var(--selectionColor);
+    color: var(--btnColor);
+    border-radius: 50px;
+}
+
+
+   
+.navlist>li>div>p{
+    position: relative;
+    left: 20px;
+    top: -3px;
+    font-weight: 400;
+}
+.navlist>li>div>span>img{
+ height: 20px;
+ width: 20px;  
+
+}
+
+
+/* Upgrade Card */
+
+.upgradeCard{
+    height: 180px;
+    width: 200px;
+    position: absolute;
+   left: 20px;
+   bottom: 3%;
+   border-radius: 30px;
+   text-align: start;
+   background-color: var(--cardColor);
+}
+
+.upgradeCard>p{
+    padding: 20px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--menuShadowBg);
+}
+
+.upgradeCard>button{
+    margin-left:20px ;
+    background-color: var(--btnColor);
+    color: white;
+    padding: 10px 15px;
+    height: 35px;
+    border-style: none;
+    /* position: relative;
+    top: -10px; */
+    border-radius: 10px;
+}
+
+
+
+/* Working on the main Content */

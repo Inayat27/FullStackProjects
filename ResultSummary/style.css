@@ -1,0 +1,218 @@
+body{
+    background-color: rgba(245, 245, 245, 0.503);
+    margin: 0;
+    padding: 0;
+    display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  resize: both;
+  overflow: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+
+body .container{
+    margin: 10%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+    width: 600px;
+    height: 350px;
+    box-shadow: 8px 8px 31px 9px rgb(83 83 212 / 22%);
+
+    
+    
+   
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 350px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding:5px;
+    position: relative;
+    
+background: rgb(83,83,212);
+background: linear-gradient(180deg, rgba(83,83,212,1) 31%, rgba(18,18,221,0.8997724089635855) 100%);
+    
+    
+}
+
+.box1>h3:first-child{
+    position: absolute;
+    top: 0px;
+    font-weight: 300;
+    color: rgb(214 212 212 / 91%);
+    font-size: 20px;
+   
+}
+
+
+.circle
+{
+    background: rgb(3,3,227);
+background: linear-gradient(180deg, rgba(3,3,227,0.8997724089635855) 25%, rgba(96,96,229,1) 76%);
+   
+    height: 150px;
+  width: 150px;
+  /* background-color: #bbb; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cid{
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+#cid2{
+    color: rgb(214 212 212 / 91%);
+}
+
+.box1>h2{
+    position: absolute;
+    top: 60%;
+    color: #F0F0F0;
+    
+}
+
+.box1 > p {
+    position: relative;
+    top: 12%;
+    text-align: center;
+    color: rgb(214 212 212 / 91%);
+
+}
+
+/* ===================================================== */
+
+/* working ith the box2 */
+.box2{
+    position: relative;
+    right: 5px;
+    
+
+}
+
+.s{
+    position: relative;
+    /* right: 5px; */
+}
+
+
+.box2 > h3{
+    position: relative;
+    top: 4px;
+    left: 20px;
+    /* border: 1px solid black; */
+}
+.s1,.s2,.s3,.s4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    padding-left: 5px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.s1>img,.s2>img,.s3>img,.s4>img{
+    max-width: 25px;
+    max-height: 25px;
+    padding-right: 10px;
+   /* position: relative;
+   right: 35px; */
+}
+
+.s1>p:nth-child(2),.s2>p:nth-child(2),.s3>p:nth-child(2),.s4>p:nth-child(2){
+    position: relative;
+    right: 10px;
+    padding-left: 10px;
+    
+
+}
+
+#sc{
+    position: relative;
+    left: 5pc;
+    color: rgba(172, 171, 171, 0.914);
+}
+span{
+    font-weight: 900;
+    color: black;
+}
+
+.s1{
+    background-color:rgb(240, 236, 236);
+}
+
+.s1>p:nth-child(2){
+   
+        color: red;
+        font-weight: 550;
+        
+}
+
+
+.s2{
+    background-color: #f8f8d2c5;
+}
+
+.s2>p:nth-child(2){
+   
+        color: goldenrod;
+        font-weight: 550;
+        
+}
+
+.s3{
+    background-color: #e2f9e3;
+}
+
+.s3>p:nth-child(2){
+   
+        color: rgb(5, 246, 89);
+        font-weight: 550;
+        
+}
+
+.s4{
+    background-color: #dde2f2;
+}
+
+.s4>p:nth-child(2){
+   
+        color: rgb(33, 33, 203);
+        font-weight: 550;
+        
+}
+
+
+#btn{
+    position: relative;
+    top:2px;
+    left: 47px;
+    height: 50px;
+    width: 200px;
+    font-weight: 800;
+    border-radius: 30px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(3, 3, 24, 0.997);
+}

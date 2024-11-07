@@ -1,0 +1,34 @@
+.b {
+    display: inline-flex;
+    height: 40px; /* Equivalent to 37px */
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    /* border-radius: var(--rounded-btn, 0.5rem); */
+    border-color: transparent;
+    border-color: black;
+    /* border-color: rgba(var(--btn-color, var(--b2)), var(--tw-border-opacity)); */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 0.875rem; /* Equivalent to 14px */
+    line-height: 1em;
+    gap: 0.5rem;
+    font-weight: 600;
+    text-decoration-line: none;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    border-width: var(--border-btn, 1px);
+    animation: button-pop var(--animation-btn, 0.25s) ease-out;
+    transition-property: color, background-color, border-color, opacity, box-shadow, transform;
+    color: rgba(var(--fallback-bc, var(--bc)), var(--tw-text-opacity)); /* Fallback value needed */
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    outline-color: rgba(var(--fallback-bc, var(--bc)), 1); /* Fallback value needed */
+    background-color: rgba(var(--btn-color, var(--b2)), var(--tw-bg-opacity));
+}
